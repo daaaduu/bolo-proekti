@@ -261,3 +261,60 @@ main {
   color: #dfdfdf;
   font-size: 14px;
 }
+.boxes {
+  min-width: 100%;
+  min-width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 100px 0px 100px 0px;
+}
+.boxes .cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 70%;
+}
+.boxes .cont .item {
+  width: 285px;
+  height: 360px;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.boxes .cont .item i {
+  font-size: 40px;
+  color: #15263e;
+}
+.boxes .cont .item p {
+  font-size: 22px;
+  color: #15263e;
+}
+.blueitem {
+  width: 285px;
+  height: 360px;
+  background-color: #15263e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.blueitem b {
+  font-size: 22px;
+  font-weight: 200;
+}
+.blueitem p {
+  width: 230px;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.42px;
+  color: #ececec;
+}

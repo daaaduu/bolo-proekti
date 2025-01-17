@@ -91,3 +91,114 @@ main {
   width: 25px;
   height: 25px;
 }
+.abSmith {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  min-width: 100%;
+  min-height: 80vh;
+  background-color: white;
+  padding: 50px;
+}
+
+.abSmith .righttext {
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 33px;
+}
+.abSmith .righttext .name {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 10px;
+}
+.abSmith .righttext .name b {
+  font-size: 40px;
+  color: #222222;
+  font-family: "Teachers", serif;
+  font-weight: 200;
+}
+.abSmith .righttext .name p {
+  font-size: 14px;
+  color: #daae19;
+  font-family: "Teachers", serif;
+  font-weight: 200;
+}
+.abSmith .righttext p {
+  text-align: right;
+  letter-spacing: 0.45px;
+  color: #555555;
+  font-family: "Teachers", serif;
+}
+.abSmith .righttext a {
+  width: 152px;
+  height: 50px;
+  background-color: #e93656;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Teachers", serif;
+  transition: 0.5s;
+}
+.abSmith .righttext a:hover {
+  background-color: #b81835;
+}
+.abSmith .img {
+  width: 430px;
+  height: 603px;
+  background-color: #555555;
+}
+.abSmith .lefttext {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.abSmith .lefttext p {
+  font-size: 20px;
+}
+.abSmith .lefttext p span {
+  color: #e93656;
+}
+.abSmith .lefttext .lines {
+  width: 300px;
+  height: 10px;
+  background-color: #e93656;
+}
+.stats {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.Photoshop .lines {
+  background: linear-gradient(
+    90deg,
+    rgba(233, 54, 86, 1) 30%,
+    rgba(240, 240, 240, 1) 30%
+  );
+}
+.Design .lines {
+  background: linear-gradient(
+    90deg,
+    rgba(233, 54, 86, 1) 80%,
+    rgba(240, 240, 240, 1) 20%
+  );
+}
+.Marking .lines {
+  background: linear-gradient(
+    90deg,
+    rgba(233, 54, 86, 1) 50%,
+    rgba(240, 240, 240, 1) 50%
+  );
+}
+.photography .lines {
+  background: linear-gradient(
+    90deg,
+    rgba(233, 54, 86, 1) 65%,
+    rgba(240, 240, 240, 1) 35%
+  );
+}

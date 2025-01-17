@@ -202,3 +202,62 @@ main {
     rgba(240, 240, 240, 1) 35%
   );
 }
+.contact {
+  background-color: #131a36;
+  min-width: 100%;
+  min-height: 20vh;
+  padding: 50px;
+}
+.contact .cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: 100%;
+}
+.contact .cont .icon {
+  width: 90px;
+  height: 90px;
+  background: #00000000 0% 0% no-repeat padding-box;
+  border: 2px dashed #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+}
+.redicon {
+  width: 90px;
+  height: 90px;
+  background: #e93656;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+}
+.contact .cont .item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contact .cont .item .text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.contact .cont .item b {
+  text-align: left;
+  letter-spacing: 0.75px;
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 200;
+}
+.contact .cont .item p {
+  text-align: left;
+  letter-spacing: 0.42px;
+  color: #dfdfdf;
+  font-size: 14px;
+}

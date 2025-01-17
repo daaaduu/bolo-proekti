@@ -26,3 +26,68 @@ body {
 .header h1 span {
   color: #0060ff;
 }
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 100%;
+  height: 80vh;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  margin-left: 300px;
+}
+.hero .aboutme {
+  position: absolute;
+  top: 130px;
+  right: 200px;
+}
+.hero .aboutme h1 {
+  font-family: Poppins;
+  position: absolute;
+  font-size: 158.3px;
+  color: #1c1c1c;
+  font-weight: 700;
+}
+.hero .aboutme b {
+  font-family: Poppins;
+  position: absolute;
+  font-size: 43.17px;
+  color: #373737;
+  width: 218px;
+}
+.pos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero h1 {
+  font-family: "Teachers", serif;
+  font-size: 49.7px;
+  font-weight: 200;
+}
+.hero h2 {
+  font-family: "Teachers", serif;
+  font-size: 71px;
+  font-weight: 300;
+}
+.hero p {
+  font-family: "Teachers", serif;
+  font-size: 23.29px;
+  font-weight: 300;
+  color: #212121;
+}
+.hero ul {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  padding-left: 10px;
+}
+.hero ul li img {
+  width: 25px;
+  height: 25px;
+}

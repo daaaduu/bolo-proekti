@@ -481,3 +481,475 @@ main {
   color: white;
   font-weight: 200;
 }
+.articles {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 110px 0px 100px 0px;
+  background-color: white;
+  gap: 80px;
+}
+.articles .content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline;
+  justify-content: center;
+}
+.articles .content .item {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  justify-content: center;
+}
+.articles .content .item .text {
+  width: 35vw;
+  height: 50vh;
+  background-color: #fafafa;
+  display: flex;
+  padding: 50px;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.articles .content .item .text i {
+  font-size: 29px;
+  color: #daae19;
+}
+.articles .content .item .text .bot {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.articles .content .item .text .bot p {
+  text-align: left;
+  letter-spacing: 1.12px;
+  color: #888888;
+  font-size: 14px;
+  width: 70%;
+  font-family: "Mulish", serif;
+}
+.articles .content .item .text .bot b {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #161616;
+  font-size: 40px;
+  font-weight: 200;
+}
+.articles .content .item .rot {
+  width: 5vw;
+  height: 50vh;
+  background-color: #15263e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.articles .content .item .rot b {
+  transform: rotate(270deg);
+  color: #e93656;
+  font-size: 30px;
+  position: absolute;
+  font-weight: 200;
+}
+.articles .content .item .space {
+  width: 49.5vw;
+  height: 50vh;
+  background-color: #e1e0dc;
+}
+.articles .content .item .absolute {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  left: 0px;
+  position: absolute;
+}
+.articles .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.articles .title p {
+  color: #2ed279;
+  font-size: 13px;
+}
+.articles .title h1 {
+  color: #2e2e2e;
+  font-size: 60px;
+  font-weight: 200;
+}
+.team {
+  min-width: 100vw;
+  min-height: 50vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px;
+}
+.team .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.team .title p {
+  color: #2ed279;
+  font-size: 13px;
+}
+.team .title h1 {
+  color: #2e2e2e;
+  font-size: 60px;
+  font-weight: 200;
+}
+.team .conteiner {
+  display: flex;
+  align-items: center;
+  gap: 115px;
+}
+.team .conteiner .item {
+  width: 110px;
+  height: 110px;
+  background-color: #15263e;
+}
+.team .conteiner .chose {
+  width: 200px;
+  height: 170px;
+  border: 3px solid #e93656;
+  background-color: rgba(139, 69, 19, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.team .conteiner .chose b {
+  text-align: center;
+  letter-spacing: 0.32px;
+  color: #161616;
+  font-size: 16px;
+}
+.team .conteiner .chose p {
+  text-align: center;
+  letter-spacing: 0.39px;
+  color: #626262;
+  font-size: 13px;
+}
+.contactUs {
+  min-width: 100vw;
+  min-height: 60vh;
+  background-image: url(IMG/Layer\ 5.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactUs .cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 60vh;
+  background-color: #161616be;
+  gap: 30px;
+  padding: 50px;
+}
+.contactUs .cont .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.contactUs .cont .text h1 {
+  text-align: left;
+  letter-spacing: 1.35px;
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 45px;
+}
+.contactUs .cont .text p {
+  text-align: center;
+  letter-spacing: 0.51px;
+  color: #eeeeee;
+  font-size: 17px;
+}
+.contactUs .cont form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.contactUs .cont form .top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contactUs .cont form .top input {
+  width: 290px;
+  height: 50px;
+  border: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.contactUs .cont form .msg {
+  width: 890px;
+  height: 110px;
+  border: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.contactUs .cont button {
+  width: 190px;
+  height: 50px;
+  background-color: #1c1c1c00;
+  border: 2px solid #e93656;
+  color: #e93656;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contactUs .cont button:hover {
+  background-color: #e93656;
+  color: white;
+}
+footer {
+  width: 100vw;
+  height: 50vh;
+  background-color: #282828;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+footer .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .top h1 {
+  text-align: left;
+  letter-spacing: NaNpx;
+  font-family: Poppins;
+  color: white;
+}
+footer .top h1 span {
+  color: #e93656;
+}
+footer .top p {
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.09px;
+  color: #a5a5a5;
+  width: 600px;
+}
+footer .top ul {
+  display: flex;
+  align-items: center;
+  justify-content: last baseline;
+  gap: 10px;
+}
+footer .top ul li a i {
+  color: #00bec5;
+  font-size: 20px;
+}
+footer .bot {
+  height: 10vh;
+  width: 100vw;
+  background-color: #171717;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+}
+footer .bot p {
+  font-size: 15px;
+  color: grey;
+}
+@media only screen and (max-width: 1280px) {
+  .main .pos h1 {
+    font-size: 80px;
+  }
+  .main .pos b {
+    font-size: 30px;
+    width: 155px;
+  }
+  .abSmith .img {
+    width: 300px;
+    height: 500px;
+  }
+  .boxes {
+    min-width: 100vh;
+  }
+  .boxes .item {
+    width: 230px !important;
+    height: 300px !important;
+  }
+  .blueitem {
+    width: 230px !important;
+    height: 300px !important;
+  }
+  .LatestProjects .flex .block {
+    width: 200px !important;
+    height: 250px !important;
+  }
+  .articles .content .text p {
+    font-size: 12px !important;
+    width: 350px !important;
+  }
+  .articles .content .rot b {
+    font-size: 22px !important;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .main .pos {
+      display: none;
+    }
+    .hero {
+      margin-left: 0px;
+    }
+    .abSmith {
+      flex-direction: column;
+    }
+    .abSmith .righttext {
+      align-items: center;
+    }
+    .abSmith .righttext .name {
+      align-items: center;
+    }
+    .abSmith .righttext p {
+      text-align: center;
+    }
+    .contact .cont {
+      flex-direction: column;
+    }
+
+    .boxes {
+      min-width: 100vh;
+    }
+    .boxes .cont {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      margin-right: 380px;
+    }
+    .boxes .item {
+      width: 180px !important;
+      height: 250px !important;
+    }
+    .boxes .blueitem {
+      width: 180px !important;
+      height: 250px !important;
+    }
+    .boxes .blueitem p {
+      width: 130px;
+    }
+    .mau .content {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .LatestProjects {
+      display: none;
+    }
+    .articles .content .rot {
+      display: none !important;
+    }
+    .articles .content .space {
+      display: none;
+    }
+    .articles .content .item {
+      width: 100vw;
+    }
+    .articles .content .item .text {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .articles .content .item .text .bot {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .articles .content .item .text .bot p {
+      text-align: center;
+    }
+    .team .conteiner {
+      flex-direction: column;
+    }
+    .contactUs form .top {
+      flex-direction: column;
+    }
+    .contactUs form .msg {
+      width: 290px !important;
+    }
+    .contactUs form button {
+      margin-top: 50px !important;
+    }
+    footer p {
+      width: 70vw !important;
+      text-align: center;
+    }
+  }
+}
+* {
+  box-sizing: border-box;
+}
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #cdcdcd;
+  .carousel-item {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #2e2e2e;
+    top: 0;
+    left: 100%;
+    &.active {
+      left: 0;
+      transition: all 0.3s ease-out;
+    }
+    div {
+      height: 100%;
+    }
+    .red {
+      background-color: red;
+    }
+    .green {
+      background-color: green;
+    }
+    .yellow {
+      background-color: yellow;
+    }
+    .violet {
+      background-color: violet;
+    }
+  }
+}
+.carousel-item {
+  height: 100%;
+}
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

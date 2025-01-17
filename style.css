@@ -318,3 +318,72 @@ main {
   letter-spacing: 0.42px;
   color: #ececec;
 }
+.mau {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  min-height: 45vh;
+  background-color: #131a36;
+  background-size: cover;
+  padding: 50px;
+}
+.mau .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.mau .content p {
+  text-align: right;
+  color: #ffffff;
+}
+.mau .content .cent {
+  width: 170px;
+  height: 170px;
+  background: #7accc800 0% 0% no-repeat padding-box;
+  border: 2px dashed #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mau .content .cent .circle {
+  width: 130px;
+  height: 130px;
+  background-color: #b97679;
+  border-radius: 50%;
+}
+.mau .content .text {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 50px;
+}
+.mau .content .text .right {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  color: white;
+  gap: 10px;
+}
+.mau .content .text .right h1 {
+  font-size: 60px;
+  height: 40px;
+}
+.mau .content .text .right b {
+  font-weight: 200;
+}
+.mau .content .text .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  align-self: center;
+}
+.mau .content .text .left .square {
+  width: 14px;
+  height: 14px;
+  border: solid 1px white;
+}
